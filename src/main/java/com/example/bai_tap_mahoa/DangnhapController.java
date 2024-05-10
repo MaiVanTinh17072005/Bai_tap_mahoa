@@ -78,7 +78,7 @@ public class DangnhapController implements Initializable {
                             alert.showAndWait();
                         }else{
                             try {
-                                new DBUntils().changeScene(actionEvent,"dangki.fxml", "Dang Ki",400,600);
+                                new DBUntils().changeScene(actionEvent,"welcome.fxml", "Dang Ki",400,600);
                             } catch (IOException e) {
                                 throw new RuntimeException(e);
                             }
