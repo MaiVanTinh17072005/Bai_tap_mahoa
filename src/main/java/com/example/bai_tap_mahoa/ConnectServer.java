@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class ConnectServer {
     private static String ipServer = "";
-    private static int port = 7749;
+    private static int port = 12312;
 
     public static Socket getSoket(){
         Socket socket;
